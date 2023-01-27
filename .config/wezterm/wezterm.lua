@@ -1,5 +1,6 @@
 local wezterm = require("wezterm")
 return {
+    window_close_confirmation = "NeverPrompt",
     enable_wayland = false,
 	show_update_window = false,
 	check_for_updates = false,
